@@ -1,7 +1,8 @@
+/* eslint-disable import/extensions */
 import React from 'react';
-import Menu from '../../components/Menu/index.js';
-import Footer from '../../components/Footer/index';
-import styled from 'styled-components'
+import styled, { css } from 'styled-components';
+import Menu from '../Menu/index.js';
+import Footer from '../Footer/index.js';
 
 const Main = styled.main`
     background-color: var(--black);
@@ -10,18 +11,21 @@ const Main = styled.main`
     padding-top: 50px;
     padding-left: 5%;
     padding-right: 5%;
+    ${({ paddingAll }) => css`
+        padding: ${paddingAll};
+    `}
 `;
 
-function PageDefault(props) {
-    return (
-        <>
-            <Menu />
-            <Main>
-                {props.children}
-            </Main>
-            <Footer />
-        </>
-    )
+function PageDefault({ children, paddingAll }) {
+  return (
+    <>
+      <Menu />
+      <Main paddingAll={paddingAll}>
+        {children}
+      </Main>
+      <Footer />
+    </>
+  );
 }
 
 export default PageDefault;

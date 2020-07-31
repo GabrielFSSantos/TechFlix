@@ -186,6 +186,12 @@
       "categoriaId": 5,
       "titulo": "Resident Evil 8",
       "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
+    },
+    {
+      "titulo": "Resident Evil 2 Remake: Guia Para Rank S+ no Insano",
+      "url": "https://www.youtube.com/watch?v=qZF5VSvKYkQ",
+      "categoriaId": 5,
+      "id": 25
     }
   ]
 }

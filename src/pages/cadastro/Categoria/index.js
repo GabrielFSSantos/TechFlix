@@ -2,12 +2,15 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault/index.js';
-import FormField from '../../../components/FormField/indes.js';
+import FormField from '../../../components/FormField/index.js';
 import Button from '../../../components/Button/index.js';
+import useForm from '../../../hooks/useForm/index.js';
+import repCategorias from '../../../repositories/categorias.js';
 
 function CadastroCategoria() {
   const valoresIniciais = {
     titulo: '',
+    descricao: '',
     cor: '',
     link_extra: {
       text: '',
@@ -15,30 +18,10 @@ function CadastroCategoria() {
     },
   };
   const [categorias, setCategorias] = useState([]);
-  const [values, setValues] = useState(valoresIniciais);
-
-  function setValue(chave, valor) {
-    // chave: nome, descricao, bla, bli
-    setValues({
-      ...values,
-      [chave]: valor, // nome: 'valor'
-    });
-  }
-
-  function handleChange(infosDoEvento) {
-    setValue(
-      infosDoEvento.target.getAttribute('name'),
-      infosDoEvento.target.value,
-    );
-  }
+  const { values, handleChange, clearForm } = useForm(valoresIniciais);
 
   useEffect(() => {
-    const URL = window.location.hostname.includes('localhost')
-      ? 'http://localhost:8080/categorias'
-      : 'URL da API online';
-
-    fetch(URL).then(async (response) => {
-      const res = await response.json();
+    repCategorias.getAll().then((res) => {
       setCategorias([...res]);
     });
   }, []);
@@ -58,7 +41,7 @@ function CadastroCategoria() {
           values,
         ]);
 
-        setValues(valoresIniciais);
+        clearForm();
       }}
       >
 
@@ -74,7 +57,7 @@ function CadastroCategoria() {
           label="Descrição:"
           type="textaarea"
           name="descricao"
-          value={values.link_extra.text}
+          value={values.descricao}
           onChange={handleChange}
         />
 
@@ -86,7 +69,7 @@ function CadastroCategoria() {
           onChange={handleChange}
         />
 
-        <Button>
+        <Button type="submit">
           Cadastrar
         </Button>
       </form>

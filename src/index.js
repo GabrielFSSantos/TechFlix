@@ -17,9 +17,5 @@ ReactDOM.render(
       <Route component={() => (<div>Página não Encontrada: Erro 404</div>)} />
     </Switch>
   </BrowserRouter>,
-
-  // <React.StrictMode>
-  //   <Home />
-  // </React.StrictMode>,
   document.getElementById('root'),
 );
