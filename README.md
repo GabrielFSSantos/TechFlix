@@ -1,71 +1,34 @@
-Imersão React - Alura
-Color Theme: #0CABE3
+# Open Source TechFlix
+![Developer](https://img.shields.io/badge/GabrielFSSantos-TechFlix-blue)
+[![licence mit](https://img.shields.io/github/license/GabrielFSSantos/TechFlix)](https://github.com/GabrielFSSantos/TypeScript/blob/master/LICENSE)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> :wrench:  TechFlix é o projeto construido durante a [Imersão React da Alura](https://www.alura.com.br/imersao-react/) . <br>
+> :books: O projeto foi desenvolvido com o intuito de exercitar meus conhecimentos de programação e para fins didáticos.
 
-## Available Scripts
+## Versioning
+> :flags: O projeto não teve um gerenciamento de versionamento, ele é um algoritmo base.
 
-In the project directory, you can run:
+## Contributing
+> :information_desk_person: O projeto é de livre acesso e uso, então fique à-vontade para realizar um Fork e utilizar do mesmo, como também sugerir dicas e melhorias.
+> 
+>  1. Faça um **fork** do projeto.
+> 2. Crie uma nova branch com as suas alterações: `git checkout -b my-feature`
+> 3. Salve as alterações e crie uma mensagem de commit contando o que você fez: `git commit -m "feature: My new feature"`
+> 4. Envie as suas alterações: `git push origin my-feature`
+> Caso tenha alguma dúvida confira este [guia de como contribuir no GitHub](https://github.com/firstcontributions/first-contributions)
 
-### `yarn start`
+## Tech
+> :space_invader:Softwares e tecnologias utilizadas para o desenvolvimento e uso do projeto:
+>
+* [React] - Ferramenta utilizada para o desenvolvimento front-end.
+* [Node.js] - Ferramenta utilizada para o desenvolvimento back-end.
+* [VSCode] - Ótimo editor de texto.
+* [StackEdit] - Excelente editor de Markdown online.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## License
+[MIT License](https://github.com/GabrielFSSantos/TypeScript/blob/master/LICENSE) © [Alura](http://alura.com.br/)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+[React]: <https://reactjs.org>
+[Node.js]: <https://nodejs.org/>
+[VSCode]: <https://code.visualstudio.com/>
+[StackEdit]: <https://stackedit.io/>
