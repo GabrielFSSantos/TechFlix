@@ -1,6 +1,6 @@
 # Open Source TechFlix
 ![Developer](https://img.shields.io/badge/GabrielFSSantos-TechFlix-blue)
-[![licence mit](https://img.shields.io/github/license/GabrielFSSantos/TechFlix)](https://github.com/GabrielFSSantos/TypeScript/blob/master/LICENSE)
+[![licence mit](https://img.shields.io/github/license/GabrielFSSantos/TechFlix)](https://github.com/GabrielFSSantos/TechFlix/blob/master/LICENSE)
 
 > :wrench:  TechFlix é o projeto construido durante a [Imersão React da Alura](https://www.alura.com.br/imersao-react/) . <br>
 > :books: O projeto foi desenvolvido com o intuito de exercitar meus conhecimentos de programação e para fins didáticos.
@@ -26,7 +26,7 @@
 * [StackEdit] - Excelente editor de Markdown online.
 
 ## License
-[MIT License](https://github.com/GabrielFSSantos/TypeScript/blob/master/LICENSE) © [Alura](http://alura.com.br/)
+[MIT License](https://github.com/GabrielFSSantos/TechFlix/blob/master/LICENSE) © [Alura](http://alura.com.br/)
 
 [React]: <https://reactjs.org>
 [Node.js]: <https://nodejs.org/>
